@@ -1,0 +1,14 @@
+metadata:
+    name: lava-test
+    format: "Lava-Test Test Definition 1.0"
+    description: "Lava command test"
+    maintainer:
+        - sl@yandex.com
+    environment:
+        - lava-test-shell
+
+#Trying she command from LAVA test definition
+run:
+    steps:
+        - cd ./test_lava/
+        - ./test.sh
