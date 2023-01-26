@@ -1,5 +1,8 @@
 #!/bin/bash -ex
 
 for i in {1..5}; do
-    touch $i && sleep $i &
+
+    echo $i
+    echo "from inside the test sh"
+
 done

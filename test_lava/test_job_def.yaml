@@ -1,6 +1,5 @@
 metadata:
     name: lava-test
-    format: "Lava-Test Test Definition 1.0"
     description: "Lava command test"
     maintainer:
         - sl@yandex.com
@@ -10,5 +9,9 @@ metadata:
 #Trying she command from LAVA test definition
 run:
     steps:
+
+        - pwd
+        - ls -al
         - cd ./test_lava/
-        - ./test.sh
+        - ls -al
+
