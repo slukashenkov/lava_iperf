@@ -9,8 +9,9 @@ metadata:
 #Trying she command from LAVA test definition
 run:
     steps:
+
         - pwd
         - ls -al
         - cd ./test_lava/
         - ls -al
-        - ./test.sh
+
